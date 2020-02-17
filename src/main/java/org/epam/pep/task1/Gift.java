@@ -6,11 +6,11 @@ class Gift{
 	ArrayList<Confectionery> gifts = new ArrayList<Confectionery>();
 	
 	Gift(){
-		
+		//empty constructor
 	}
 	
 	void add(Confectionery conf){
-		gifts.add(conf);
+		this.gifts.add(conf);
 	}
 	
 	ArrayList<Confectionery> allItems(){
